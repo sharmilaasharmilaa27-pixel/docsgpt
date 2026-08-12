@@ -1,0 +1,8 @@
+{"question":"What are the eight planets in the Solar System?","expected_source":"solar_system.md","in_docs":true}
+{"question":"What is the main function of the small intestine?","expected_source":"human_digestive_system.md","in_docs":true}
+{"question":"What is overfitting in machine learning?","expected_source":"machine_learning_basics.md","in_docs":true}
+{"question":"When did India become independent?","expected_source":"indian_independence_movement.md","in_docs":true}
+{"question":"What are the major renewable energy sources?","expected_source":"renewable_energy_sources.md","in_docs":true}
+{"question":"What is compound growth in personal finance?","expected_source":"personal_finance_basics.md","in_docs":true}
+{"question":"Who was the first person to walk on Mars?","expected_source":null,"in_docs":false}
+{"question":"What is the current stock price of Apple?","expected_source":null,"in_docs":false}
