@@ -363,9 +363,7 @@ st.html("""
 # ============================================================
 
 if "messages" not in st.session_state:
-
     st.session_state.messages = []
-
 
 if not st.session_state.messages:
 
@@ -384,33 +382,32 @@ if not st.session_state.messages:
 
     col1, col2, col3 = st.columns(3)
 
-with col1:
-    if st.button(
-        "☀️ What are the planets in the Solar System?",
-        use_container_width=True
-    ):
-        st.session_state.selected_question = (
-            "What are the planets in the Solar System?"
-        )
+    with col1:
+        if st.button(
+            "☀️ What are the planets in the Solar System?",
+            use_container_width=True
+        ):
+            st.session_state.selected_question = (
+                "What are the planets in the Solar System?"
+            )
 
-with col2:
-    if st.button(
-        "🧠 What is overfitting in machine learning?",
-        use_container_width=True
-    ):
-        st.session_state.selected_question = (
-            "What is overfitting in machine learning?"
-        )
+    with col2:
+        if st.button(
+            "🧠 What is overfitting in machine learning?",
+            use_container_width=True
+        ):
+            st.session_state.selected_question = (
+                "What is overfitting in machine learning?"
+            )
 
-with col3:
-    if st.button(
-        "💰 What is compound growth?",
-        use_container_width=True
-    ):
-        st.session_state.selected_question = (
-            "What is compound growth?"
-        )
-
+    with col3:
+        if st.button(
+            "💰 What is compound growth?",
+            use_container_width=True
+        ):
+            st.session_state.selected_question = (
+                "What is compound growth?"
+            )
 
 # ============================================================
 # FUNCTIONS
